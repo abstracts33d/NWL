@@ -76,7 +76,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth-10, window.innerHeight-10);
+  createCanvas(window.innerWidth, window.innerHeight);
   background(51);
   var points = font.textToPoints('Nested Wires Lab', window.innerWidth/2-400, 300, 100, {
     sampleFactor: 0.2
